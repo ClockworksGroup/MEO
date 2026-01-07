@@ -1,6 +1,20 @@
+<div align="center">
+
+![MEO Banner](./assets/baner.jpg)
+
 # MEO (Memory Embedded Orchestration)
 
-**MEO** is a foundational layer for agentic AI systems that adds persistent memory, evaluation, semantic compression, and meta-policy adaptation to any existing agent/orchestrator framework.
+[![PyPI version](https://badge.fury.io/py/synapse-meo.svg)](https://badge.fury.io/py/synapse-meo)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+**A foundational layer for agentic AI systems that adds persistent memory, evaluation, semantic compression, and meta-policy adaptation to any existing agent/orchestrator framework.**
+
+[Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Examples](./examples/)
+
+</div>
+
+---
 
 ## 🎯 Overview
 
@@ -67,19 +81,19 @@ None of these are showstoppers — they're solvable with careful engineering and
 ## 📦 Installation
 
 ```bash
-pip install meo
+pip install synapse-meo
 ```
 
 ### Optional Dependencies
 
 For LangChain integration:
 ```bash
-pip install meo[langchain]
+pip install synapse-meo[langchain]
 ```
 
 For Autogen integration:
 ```bash
-pip install meo[autogen]
+pip install synapse-meo[autogen]
 ```
 
 ## 🚀 Quick Start
